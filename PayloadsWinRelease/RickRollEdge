@@ -1,0 +1,13 @@
+REM Author : badusbprovider
+REM Legit : Educational purposes only
+REM Name : Rickroll basic
+DELAY 100
+STRG + ESC
+DELAY 500
+string Microsoft Edge
+DELAY 500
+ENTER
+DELAY 500
+string https://www.youtube.com/watch?v=dQw4w9WgXcQ
+DELAY 1000
+ENTER
