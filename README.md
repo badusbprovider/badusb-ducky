@@ -14,6 +14,4 @@ Some of my scripts ⬇️⬇️⬇️
 
 ![duckyshell](https://github.com/user-attachments/assets/51774e1b-f5d8-42bd-a198-98427ec2c171)
 
-
-![ipgrab](https://github.com/user-attachments/assets/d1178ec8-6727-4cbf-9862-6529e86f0fc0)
-
+![ipgrab](https://github.com/user-attachments/assets/467ebbb6-d39f-47e0-a73f-cc6b5c1f34da)
