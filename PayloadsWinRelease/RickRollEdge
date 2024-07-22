@@ -2,7 +2,7 @@ REM Author : badusbprovider
 REM Legit : Educational purposes only
 REM Name : Rickroll basic
 DELAY 100
-STRG + ESC
+STRG + ESCAPE
 DELAY 500
 string Microsoft Edge
 DELAY 500
