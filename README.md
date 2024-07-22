@@ -10,10 +10,10 @@ My Forks : ![GitHub forks](https://img.shields.io/github/forks/badusbprovider/ba
 
 My Discussions : ![GitHub Discussions](https://img.shields.io/github/discussions/badusbprovider/badusb-ducky)
 
-My Favorite Ducky's ⬇️⬇️⬇️
+Some of my scripts ⬇️⬇️⬇️
 
 ![duckyshell](https://github.com/user-attachments/assets/51774e1b-f5d8-42bd-a198-98427ec2c171)
 
 
-
+![ipgrab](https://github.com/user-attachments/assets/d1178ec8-6727-4cbf-9862-6529e86f0fc0)
 
