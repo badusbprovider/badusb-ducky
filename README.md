@@ -1,4 +1,4 @@
-## DuckyScript/or BadUsb Scripts for the Flipper Zero that i made!
+## DuckyScript/or BadUsb Scripts for the Flipper Zero that i made! EDUCATIONAL purposes only
 
 My last commit : ![GitHub last commit](https://img.shields.io/github/last-commit/badusbprovider/badusb-ducky)
 
