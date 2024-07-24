@@ -1,13 +1,13 @@
-REM Author : badusbprovider
-REM Legit : Educational purposes only
-REM Name : Rickroll basic
+REM Author: badusbprovider
+REM Legit: Educational purposes only
+REM Name: Rickroll basic
 DELAY 100
-STRG + ESCAPE
+GUI r
 DELAY 500
-string Microsoft Edge
+STRING microsoft edge
 DELAY 500
 ENTER
-DELAY 500
-string https://www.youtube.com/watch?v=dQw4w9WgXcQ
+DELAY 2000
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
 DELAY 1000
 ENTER
